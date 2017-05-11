@@ -1,7 +1,0 @@
-# Install a role from the Ansible Galaxy
-- src: dfarrell07.opendaylight
-- src: geerlingguy.redis
-- src: nickhammond.logrotate
-- src: Stouts.grafana
-- src: geerlingguy.composer
-- src: geerlingguy.java
