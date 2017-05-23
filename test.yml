@@ -3,3 +3,6 @@
    tasks:
      - debug:
          msg: "Hi"
+     - pause:
+         minutes: 2
+
