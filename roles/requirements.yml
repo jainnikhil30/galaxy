@@ -1,7 +1,15 @@
 # Install a role from the Ansible Galaxy
-- src: dfarrell07.opendaylight
+- src: ricbra.logentries
+- src: geerlingguy.nodejs
+- src: geerlingguy.varnish
+- src: franklinkim.newrelic
+- src: franklinkim.php5-newrelic
+- src: DavidWittman.redis
 - src: geerlingguy.redis
-- src: nickhammond.logrotate
-- src: Stouts.grafana
+- src: geerlingguy.php
+- src: dj-wasabi.telegraf
+- src: manala.influxdb
+- src: manala.apt
+- src: manala.php
+- src: influxdata.chronograf
 - src: geerlingguy.composer
-- src: geerlingguy.java
