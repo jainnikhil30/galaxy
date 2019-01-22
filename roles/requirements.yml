@@ -1,4 +1,4 @@
 # Install a role from the Ansible Galaxy
-- src: https://github.com/jainnikhil30/test-galaxy-role.git
+- src: https://gitlab.com/jainnikhil30/testproject.git
   version: master
   name: test-galaxy-role
