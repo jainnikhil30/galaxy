@@ -2,7 +2,7 @@
  - hosts: all
    tasks:
      - debug:
-         msg: "Hi"
-     - pause:
-         minutes: 2
+         msg: "Hi I am in Playbook"
+   roles:
+     - test-galaxy-role
 
