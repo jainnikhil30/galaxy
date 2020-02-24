@@ -3,6 +3,6 @@
    tasks:
      - debug:
          msg: "Hi I am in Playbook"
-   roles:
-     - test-galaxy-role
+   include_role:
+     - roles/test-galaxy-role
 
