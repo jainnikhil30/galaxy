@@ -4,5 +4,5 @@
      - debug:
          msg: "Hi I am in Playbook"
      - include_role:
-         - roles/test-galaxy-role
+         name: roles/test-galaxy-role
 
