@@ -1,8 +1,8 @@
 ---
  - hosts: all
-   tasks:
    collections:
      - marmorag.ansodium
+   tasks:
      - debug:
          msg: "Hi I am in Playbook"
      - name: Github - Encrypt token
