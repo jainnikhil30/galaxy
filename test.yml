@@ -5,12 +5,5 @@
    tasks:
      - debug:
          msg: "Hi I am in Playbook"
-     - name: Github - Encrypt token
-       ansodium:
-         pubkey: "test"
-         data: "test"
-       register: encrypt_output
- #    - include_role:
- #        name: test-galaxy-role
    roles:
      - test-galaxy-role
