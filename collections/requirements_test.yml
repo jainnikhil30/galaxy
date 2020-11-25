@@ -1,3 +1,2 @@
 collections:
-- name: ansible.tower
-  version: '3.7.3'
+- name: redhat.satellite
