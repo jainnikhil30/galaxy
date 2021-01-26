@@ -4,4 +4,6 @@
   ignore_unreachable: true
   tasks:
   - ping:
-    ignore_errors: True
+    register: test
+  - debug:
+      var: test
