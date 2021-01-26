@@ -7,3 +7,5 @@
     register: test
   - debug:
       var: test
+  - ping:
+    when: not test.unreachable 
